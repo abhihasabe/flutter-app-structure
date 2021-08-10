@@ -33,8 +33,8 @@ class MyThemes {
       selectedIconTheme: IconThemeData(color: primaryDarkColor),
       showUnselectedLabels: true,
     ),
-    buttonTheme: ThemeData.light().buttonTheme.copyWith(buttonColor: Colors.black,
-        colorScheme: ThemeData.light().colorScheme.copyWith(secondary: Colors.black)),
+    buttonTheme: ThemeData.light().buttonTheme.copyWith(buttonColor: Colors.white,
+        colorScheme: ThemeData.light().colorScheme.copyWith(secondary: Colors.white)),
   );
 
   static final lightTheme = ThemeData(
@@ -57,8 +57,8 @@ class MyThemes {
     textTheme: _customTextTheme(baseLight.textTheme,textColor, "lightTheme"),
     primaryTextTheme: _customTextTheme(baseLight.primaryTextTheme,textColor, "lightTheme"),
     accentTextTheme: _customTextTheme(baseLight.accentTextTheme,textColor, "lightTheme"),
-    buttonTheme: ThemeData.light().buttonTheme.copyWith(buttonColor: Colors.white,
-        colorScheme: ThemeData.light().colorScheme.copyWith(secondary: Colors.white)),
+    buttonTheme: ThemeData.light().buttonTheme.copyWith(buttonColor: Colors.black,
+        colorScheme: ThemeData.light().colorScheme.copyWith(secondary: Colors.black)),
     colorScheme: ColorScheme.light(),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
       backgroundColor: Colors.white,

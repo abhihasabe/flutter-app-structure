@@ -12,8 +12,8 @@ final Color accentDarkColor = Colors.white;
 final Color indicatorColor = Color(0xffCBDCF8);
 final Color indicatorDarkColor = Color(0xff0E1D36);
 
-final Color buttonColor = Color(0xff3B3B3B);
-final Color buttonDarkColor = Color(0xffF1F5FB);
+final Color buttonColor = Colors.white;
+final Color buttonDarkColor = Color(0xff3B3B3B);
 
 final Color hintColor = Colors.white;
 final Color hintDarkColor = Color(0xff280C0B);

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/utils/connection.helper.dart';
+import 'package:news_app/utils/dialog.helper.dart';
 import 'package:news_app/widgets/button.dart';
 import 'package:news_app/widgets/change_theme_button_widget.dart';
 import 'package:news_app/widgets/snackbar.dart';
@@ -36,7 +37,8 @@ class _Dashboard extends State {
               label: "Go to Login Page ",
               onPress: () async {
                 await ConnectionHelper?.hasConnection()==true?
-                ToastWidget.show("Internet Connected"):SnackbarWidget(
+                DialogHelper.launchURL("http://www.google.com"):
+                SnackbarWidget(
                     key,
                     error: true,
                     message: "Please check Internet Connection",

@@ -54,7 +54,6 @@ class ButtonWidget extends StatelessWidget {
             primary: Theme.of(context).buttonColor,
             padding: EdgeInsets.symmetric(vertical: 16.0, horizontal: 45.0),
             shape: RoundedRectangleBorder(
-                side: BorderSide( color: borderColor),
                 borderRadius: BorderRadius.circular(20)
             ),
             elevation: _elevation
